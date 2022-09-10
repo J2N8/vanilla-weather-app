@@ -85,12 +85,9 @@
   padding-left: 10px;
 }
 
-.link-active {
-  color: #000000;
-}
-
-.link-not-active {
-  color: gray;
+.weather-temperature .link-active {
+  cursor: default;
+  color: black;
 }
 
 .location-button img {
@@ -112,11 +109,10 @@
   transition: all 200ms ease-in-out;
 }
 
- .search-button:hover{
-color: #5b8af0;
-background: white;
+.search-button:hover {
+  color: #5b8af0;
+  background: white;
 }
-
 
 .search-container {
   background: radial-gradient(
@@ -138,7 +134,7 @@ background: white;
   top: -50px;
 }
 
-.units a{
+.units a {
   text-decoration: none;
 }
 
@@ -168,6 +164,6 @@ body {
   padding: 100px;
 }
 
-li{
+li {
   list-style: none;
 }
