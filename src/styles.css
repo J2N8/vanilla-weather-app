@@ -1,0 +1,169 @@
+.city-name {
+  display: inline-block;
+  font-size: 50px;
+  width: 100%;
+}
+
+.city-next-temp-container {
+  display: inline-block;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.city-next-temp-container .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.city-weather {
+  padding-top: 16px;
+  margin-left: 25px;
+}
+
+.current-city-container .row {
+  display: grid;
+  gap: 30px 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.current-time,
+.weather-description {
+  font-size: 20px;
+}
+
+.current-temp {
+  font-size: 100px;
+}
+
+.current-weather-details {
+  font-size: 20px;
+  margin-top: 8px;
+  padding-top: 80px;
+}
+
+.current-weather-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.days {
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.days p {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.days-weekday {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.forcast-max {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.forcast-min {
+  font-size: 20px;
+}
+
+.input-city {
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 80%;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.link-active {
+  color: #000000;
+}
+
+.link-not-active {
+  color: gray;
+}
+
+.location-button img {
+  width: 19px;
+}
+
+.location-button,
+.search-button {
+  background: #5b8af0;
+  border: 2px solid #5b8af0;
+  border-radius: 15px;
+  box-shadow: 0 0 18px rgb(0, 0, 0, 0.2);
+  color: black;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 15px;
+  margin: 1px 0 0 8px;
+  padding: 5px 8px;
+  transition: all 200ms ease-in-out;
+}
+
+ .search-button:hover{
+color: #5b8af0;
+background: white;
+}
+
+
+.search-container {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgb(255, 255, 255) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  border-radius: 22px;
+  box-shadow: 0 0 18px rgb(0, 0, 0, 0.2);
+  display: grid;
+  height: 48px;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+}
+
+.units a{
+  text-decoration: none;
+}
+
+.weather-app {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.weather-content-container {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgb(255, 255, 255) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  border-radius: 18px;
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 16px;
+}
+
+body {
+  background: white;
+  padding: 100px;
+}
+
+li{
+  list-style: none;
+}
