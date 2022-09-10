@@ -159,6 +159,10 @@ background: white;
   padding: 16px;
 }
 
+.footer a {
+  text-decoration: none;
+}
+
 body {
   background: white;
   padding: 100px;
