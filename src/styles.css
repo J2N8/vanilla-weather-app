@@ -96,8 +96,8 @@
 
 .location-button,
 .search-button {
-  background: #5b8af0;
-  border: 2px solid #5b8af0;
+  background: #91D4F9;
+  border: 2px solid #91D4F9;
   border-radius: 15px;
   box-shadow: 0 0 18px rgb(0, 0, 0, 0.2);
   color: black;
@@ -110,15 +110,15 @@
 }
 
 .search-button:hover {
-  color: #5b8af0;
+  color: black;
   background: white;
 }
 
 .search-container {
   background: radial-gradient(
-    592px at 48.2% 50%,
-    rgb(255, 255, 255) 0%,
-    rgb(160, 199, 254) 74.6%
+    circle at 10% 20%,
+    rgb(137, 210, 253) 0%,
+    rgb(255, 241, 188) 90%
   );
   border-radius: 22px;
   box-shadow: 0 0 18px rgb(0, 0, 0, 0.2);
@@ -145,9 +145,9 @@
 
 .weather-content-container {
   background: radial-gradient(
-    592px at 48.2% 50%,
-    rgb(255, 255, 255) 0%,
-    rgb(160, 199, 254) 74.6%
+    circle at 10% 20%,
+    rgb(137, 210, 253) 0%,
+    rgb(255, 241, 188) 90%
   );
   border-radius: 18px;
   display: block;
