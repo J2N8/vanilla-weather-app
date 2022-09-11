@@ -23,6 +23,35 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  days.forEach(function(day) {
+  forecastHTML =
+    forecastHTML +
+    `
+      <div class="days-col col">
+        <div class="days">
+          <p>
+            <span class="days-weekday">${day}</span>
+          </p>
+          <p class="days-temp">
+            <span class="forcast-max">34°</span>
+            <span class="forcast-min">25°</span>
+          </p>
+          <img src="http://openweathermap.org/img/wn/50d@2x.png" alt="" />
+        </div>
+      </div>
+    `;
+  })
+  
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function showWeatherDescription(response) {
   document.querySelector("#city").innerHTML = response.data.name;
 
@@ -105,3 +134,4 @@ let locationbutton = document.querySelector("#locator-button");
 locationbutton.addEventListener("click", getCurrentLocation);
 
 searchingCity("Tampa");
+displayForecast();
