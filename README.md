@@ -43,7 +43,7 @@ Once the city is searched, the application will display the following:
   - Each day will display the highest and lowest temperature for that day and the icon corresponding to the forecast
 ## Demo
 
-https://photos.app.goo.gl/919NANvux2pBuXSc9
+https://photos.app.goo.gl/SgVWqQgBiX3HsNBD8
 
 
 ## Hosted
